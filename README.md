@@ -13,7 +13,7 @@ Harmonic Analysis of Fourier Series with PyQt5
  
 
 <h2> Screenshots </h2>
-![Starting Page](Screenshot72.png)
+<img src="Screenshot72.png" width=800 /> ![Starting Page](Screenshot72.png)
  ![Input Page1](Screenshot73.png)
  ![Input Page2](Screenshot76.png)
  ![Graph 1](Screenshot71.png)
