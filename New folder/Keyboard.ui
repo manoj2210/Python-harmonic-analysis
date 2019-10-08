@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1085</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>80</y>
+     <width>659</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="Base_Layout">
+    <item>
+     <layout class="QHBoxLayout" name="buttonlayout">
+      <item>
+       <widget class="QPushButton" name="x_pow_n_button">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>140</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+             background-color: rgba(212, 212, 212, 50);
+                font: 75 italic 22pt Georgia;
+                color:rgba(21, 21, 21, 200);
+                border-radius:30px;
+             }
+             QPushButton:hover {
+            background-color: rgba(212, 212, 212, 252);
+           color:rgba(21, 21, 21, 250);
+           border-radius:30px;
+   }</string>
+        </property>
+        <property name="text">
+         <string>x ⁿ</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Log_abaseb_button">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>140</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+             background-color: rgba(212, 212, 212, 50);
+                font: 75 italic 22pt Georgia;
+                color:rgba(21, 21, 21, 200);
+                border-radius:30px;
+             }
+             QPushButton:hover {
+            background-color: rgba(212, 212, 212, 252);
+           color:rgba(21, 21, 21, 250);
+           border-radius:30px;
+   }</string>
+        </property>
+        <property name="text">
+         <string>logₐb</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Naturallog_button">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>140</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+             background-color: rgba(212, 212, 212, 50);
+                font: 75 italic 22pt Georgia;
+                color:rgba(21, 21, 21, 200);
+                border-radius:30px;
+             }
+             QPushButton:hover {
+            background-color: rgba(212, 212, 212, 252);
+           color:rgba(21, 21, 21, 250);
+           border-radius:30px;
+   }</string>
+        </property>
+        <property name="text">
+         <string>logₑb</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Lessthan_button">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>140</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+             background-color: rgba(212, 212, 212, 50);
+                font: 75 italic 22pt Georgia;
+                color:rgba(21, 21, 21, 200);
+                border-radius:30px;
+             }
+             QPushButton:hover {
+            background-color: rgba(212, 212, 212, 252);
+           color:rgba(21, 21, 21, 250);
+           border-radius:30px;
+   }</string>
+        </property>
+        <property name="text">
+         <string>≤</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Greaterthan_button">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>140</width>
+          <height>61</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+             background-color: rgba(212, 212, 212, 50);
+                font: 75 italic 22pt Georgia;
+                color:rgba(21, 21, 21, 200);
+                border-radius:30px;
+             }
+             QPushButton:hover {
+            background-color: rgba(212, 212, 212, 252);
+           color:rgba(21, 21, 21, 250);
+           border-radius:30px;
+   }</string>
+        </property>
+        <property name="text">
+         <string>≥</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
