@@ -36,7 +36,7 @@ label.raise_()
 
 label1 = QtWidgets.QLabel(m)
 label1.setWindowTitle("Harmonic Analysis")
-label1.setText("By\n   M . Manoj kumar\n   D. B. Krushikesh\n   S. K. Jayanth")
+label1.setText("By\n   M . Manoj kumar")
 label1.setStyleSheet("background-color:black;\n"
                                     "font: 75 italic 20pt \"Georgia\";\n"
                                     "color:white;")

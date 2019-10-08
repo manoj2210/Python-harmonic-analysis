@@ -11,21 +11,21 @@ class Ui_MainWindow(object):
     def __init__(self,x=[],y=[],animateX=[],animateY=[]):
 
         f = open("input.txt","r")
-        expr=[]
+        self.expr=[]
         r=[]
         ip=int(f.readline())
         for i in range(0,ip):
             temp=f.readline().split()
-            expr.append(sympify(temp[0]))
+            self.expr.append(sympify(temp[0]))
             r.append(temp[1])
         h=int(f.readline())
-        p=Solve.Solving(expr,r,h)
+        p=Solve.Solving(self.expr,r,h)
 
         f.close()
 
         self.Eq="||"
-        for htp in range(len(expr)):
-            self.Eq+=str(expr[htp])+" => "+str(r[htp])+"||"
+        for htp in range(len(self.expr)):
+            self.Eq+=str(self.expr[htp])+" => "+str(r[htp])+"||"
         self.x=np.arange(-6.14,6.14,0.1)
         self.y=p.series_list
 
@@ -35,12 +35,12 @@ class Ui_MainWindow(object):
         for i in range(len(r)):
             a,b=list(map(float,r[i].split(',')))
             for j in np.arange(a,b,0.1):
-                y.append((expr[i]).subs(w,j))
+                y.append((self.expr[i]).subs(w,j))
             self.original.append(np.arange(a,b,0.1))
             self.m.append(y)
             y=[]
 
-        self.l=len(expr)
+        self.l=len(self.expr)
 
     def setupUi(self, MainWindow):
 
