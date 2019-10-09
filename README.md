@@ -1,5 +1,7 @@
 # Python-harmonic-analysis
 Harmonic Analysis of Fourier Series with PyQt5 
+<img src="Concept.png" width=800 height=400 /> 
+<h4>Sum of these ith Harmonic converges to the function value</h4 > 
 
 # <h2>Required Packages
 
