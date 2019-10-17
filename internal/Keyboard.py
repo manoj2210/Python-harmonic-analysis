@@ -26,6 +26,21 @@ class Ui_Keyboard(object):
                                                 "}")
         self.x_pow_n_button.setObjectName("x_pow_n_button")
 
+        self.Pi_button = QtWidgets.QPushButton(Form)
+        self.Pi_button.setMinimumSize(QtCore.QSize(120, 61))
+        self.Pi_button.setMaximumSize(QtCore.QSize(140, 61))
+        self.Pi_button.setStyleSheet("QPushButton {\n"
+"             background-color: rgba(212, 212, 212, 250);\n"
+"                font: 75 italic 22pt Georgia;\n"
+"                color:rgba(21, 21, 21, 200);\n"
+"                border-radius:30px;\n"
+"             }\n"
+"             QPushButton:hover {\n"
+"            background-color: rgba(212, 212, 212, 52);\n"
+"           color:rgba(21, 21, 21, 250);\n"
+"           border-radius:30px;\n"
+"   }")
+        self.Pi_button.setObjectName("Pi_button")
 
         self.Base_Layout.addLayout(self.buttonlayout)
 
@@ -39,7 +54,8 @@ class Ui_Keyboard(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.x_pow_n_button.setText(_translate("Form", "x ⁿ"))
-        
+        self.Pi_button.setText(_translate("Form", "π"))
+
 # if __name__ == "__main__":
 #     import sys
 #     app = QtWidgets.QApplication(sys.argv)
