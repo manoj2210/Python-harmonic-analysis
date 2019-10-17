@@ -106,6 +106,20 @@ def update():
         count = 0
 
 
+timer = QtCore.QTimer()
+timer.timeout.connect(update)
+timer.start(30)
+
+
+def close_fun():
+    m.close()
+    dirname = os.path.dirname(__file__)
+    filename = os.path.join(dirname, 'Ui.py')
+    os.system("python3 "+filename)
+
+
+Ok_button.clicked.connect(close_fun)
+
 if __name__ == '__main__':
     import sys
 
