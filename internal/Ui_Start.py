@@ -94,6 +94,18 @@ w.addItem(p4)
 index = 0
 count = 0
 
+
+def update():
+    global p4, z, index, count
+    index -= 1
+    p4.setData(z=z[index % z.shape[0]])
+    count += 1
+    if count == 20:
+        p1.setData(z=pg.gaussianFilter(np.random.normal(size=(50, 50)), (1.5, 2)))
+        p3.setData(z=pg.gaussianFilter(np.random.normal(size=(50, 50)), (1.5, 1)))
+        count = 0
+
+
 if __name__ == '__main__':
     import sys
 
